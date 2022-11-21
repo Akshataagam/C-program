@@ -1,4 +1,9 @@
 #include<stdio.h>
+void add()
+{
+  int a=10,b=20;
+  printf("the addition is=%d",a+b);
+} 
 int main()
 {
   int fact=1,i,num;
@@ -9,5 +14,6 @@ int main()
     fact=fact*num;
   }
   printf("the factorial=%d",fact);
+  add();
   return 0;
 }
