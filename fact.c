@@ -4,6 +4,11 @@ void add()
   int a=10,b=20;
   printf("the addition is=%d",a+b);
 } 
+void sub()
+{
+  int a=10,b=20;
+  printf("the addition is=%d",a-b);
+} 
 int main()
 {
   int fact=1,i,num;
@@ -15,5 +20,6 @@ int main()
   }
   printf("the factorial=%d",fact);
   add();
+  sub();
   return 0;
 }
